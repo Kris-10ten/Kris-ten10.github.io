@@ -137,6 +137,13 @@ section h2 {
 }
 
 body {
-    font-family: Monaco , Arial, sans-serif;
+    background-image: url('https://t4.ftcdn.net/jpg/02/95/46/09/360_F_295460913_KBu2PfHEGfuFPPUWGEztWntnqmw0UAQe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
 
+video {
+    width: 50%;
 }
