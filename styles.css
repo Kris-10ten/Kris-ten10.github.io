@@ -1,0 +1,142 @@
+@media screen and (max-width: 768px) {
+    /*Adjust styles for smaller screens*/
+    body {
+      padding-top: 60px; /*Add space for fixed navbar*/
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 999;
+    }
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      flex-grow: 1;
+      text-align: center;
+    }
+    nav ul li a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding-top: 60px; /*Add space for fixed navbar*/
+    }
+  }
+  
+  /*Navbar styles*/
+nav {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/*Section styles*/
+section {
+  padding: 50px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+/*Profile section styles*/
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/*Interests section styles*/
+.interests {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.interest {
+  flex-basis: 33%;
+  padding: 10px;
+  text-align: center;
+}
+
+.interest img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/*Skills section styles*/
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  flex-basis: 25%;
+  padding: 10px;
+  text-align: center;
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/*Contact section styles*/
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contact img {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+    font-family: Monaco , Arial, sans-serif;
+
+}
